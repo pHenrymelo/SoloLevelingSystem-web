@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${instrumentSans.variable}`}>
-      <body className=" bg-blue-dark text-white antialiased">
+      <body className=" bg-[url(/background.png)] bg-cover bg-no-repeat bg-center text-white antialiased">
         <main className=" max-w-[1240px] mx-auto px-5 py-8 md:py-0">
           {children}
         </main>
